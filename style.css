@@ -437,37 +437,64 @@ footer {
     }
 
 
-    @media (max-width: 768px) {
-  .lista-itens-container {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); /* adapta melhor para telas menores */
-    gap: 10px;
+   
+
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+    padding-bottom: 20px; /* espaço para rodapé */
   }
 
-  .item-pedido {
-    height: auto; /* deixa o card se adaptar ao conteúdo */
-    max-width: 200px; /* reduz para caber mais fácil */
-    padding: 10px;
+  /* Layout principal em coluna */
+  .grid-pedidos {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 10px 20px;
+    gap: 20px;
   }
 
-  .imagem-produto img, .imagem-produto div {
-    width: 120px;
-    height: 120px;
+  /* Seções flexíveis */
+  .dados-pessoais,
+  .itens-pedido {
+    width: 100%;
+    height: auto;
+    padding: 15px;
   }
 
-  .info-produto {
+
+  #form-dados {
+    gap: 15px;
+    align-items: stretch;
+  }
+
+  #form-dados .input-group {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  #form-dados label {
+    width: 100%;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  #form-dados input,
+  #form-dados select {
+    width: 100%;
+  }
+
+
+  
+  footer {
+    position: relative;
     font-size: 0.9rem;
   }
 
-  .preco, .subtotal {
-    font-size: 0.85rem;
-  }
 
-  .controle-quantidade button {
-    padding: 4px 8px;
-    font-size: 1rem;
-  }
 
-  .quantidade {
-    font-size: 1rem;
-  }
 }
