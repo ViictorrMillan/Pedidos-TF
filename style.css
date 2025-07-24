@@ -263,7 +263,7 @@ footer {
 @media (max-width: 700px) {
   .grid-pedidos {
     grid-template-columns: 1fr;
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   .dados-pessoais, .itens-pedido {
