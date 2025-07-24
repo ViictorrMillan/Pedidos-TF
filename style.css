@@ -259,9 +259,6 @@ footer {
 }
 
 
-/* itens-pedido */
-
-
 /*  Main media */
 @media (max-width: 700px) {
   .grid-pedidos {
@@ -302,7 +299,11 @@ footer {
 }
 }
 
-/* .itens-pedido */
+/* .itens-pedido */ 
+ 
+
+
+
 
     .input-group input, .input-group select {
       width: 100%;
@@ -320,6 +321,7 @@ footer {
       flex-direction: column;
     }
     #filtro-itens {
+      
       padding: 8px 12px;
       margin-bottom: 15px;
       border-radius: 6px;
@@ -330,7 +332,7 @@ footer {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin-bottom: 10px;
+      margin-bottom: 25px;
     }
     .filtros-categorias button {
       background: #fff;
@@ -370,7 +372,7 @@ footer {
       color: #000;
     }
     .item-pedido.destacado {
-      outline: 2px solid #ff7a15;
+      border: 2px solid #ff7a15;
       box-shadow: 0 0 10px #ff7a15;
     }
     .imagem-produto {
@@ -423,11 +425,8 @@ footer {
       font-weight: bold;
       color: #222;
     }
+
     @media (max-width: 768px) {
-      .grid-pedidos {
-        grid-template-columns: 1fr;
-        padding: 90px 10px 60px;
-      }
       .lista-itens-container {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       }
@@ -436,3 +435,39 @@ footer {
         height: auto;
       }
     }
+
+
+    @media (max-width: 768px) {
+  .lista-itens-container {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); /* adapta melhor para telas menores */
+    gap: 10px;
+  }
+
+  .item-pedido {
+    height: auto; /* deixa o card se adaptar ao conteúdo */
+    max-width: 200px; /* reduz para caber mais fácil */
+    padding: 10px;
+  }
+
+  .imagem-produto img, .imagem-produto div {
+    width: 120px;
+    height: 120px;
+  }
+
+  .info-produto {
+    font-size: 0.9rem;
+  }
+
+  .preco, .subtotal {
+    font-size: 0.85rem;
+  }
+
+  .controle-quantidade button {
+    padding: 4px 8px;
+    font-size: 1rem;
+  }
+
+  .quantidade {
+    font-size: 1rem;
+  }
+}
