@@ -75,3 +75,51 @@ const carrinho = {};
     if (carrinho[codigo] < 0) carrinho[codigo] = 0;
     renderizarItens(filtroInput.value);
   }
+
+  function atualizarResumoCarrinho() {
+  const listaCarrinho = document.getElementById('lista-carrinho');
+  listaCarrinho.innerHTML = '';
+
+  let total = 0;
+
+  for (const codigo in carrinho) {
+    const qtd = carrinho[codigo];
+    if (qtd > 0) {
+      const produto = produtos.find(p => p.codigo === codigo);
+      if (!produto) continue;
+
+      const subtotal = qtd * produto.preco;
+      total += subtotal;
+
+      const itemCarrinho = document.createElement('div');
+      itemCarrinho.className = 'item-carrinho';
+      itemCarrinho.innerHTML = `
+        <span>${produto.nome} x ${qtd}</span>
+        <span>R$ ${subtotal.toFixed(2)}</span>
+      `;
+
+      listaCarrinho.appendChild(itemCarrinho);
+    }
+  }
+
+  // Atualiza o total
+  const totalPedido = document.getElementById('total-pedido');
+  totalPedido.textContent = `R$ ${total.toFixed(2)}`;
+}
+
+function alterarQtd(codigo, delta) {
+  carrinho[codigo] = (carrinho[codigo] || 0) + delta;
+  if (carrinho[codigo] < 0) carrinho[codigo] = 0;
+  renderizarItens(filtroInput.value);
+  atualizarResumoCarrinho();  // <<< atualiza resumo sempre que altera qtd
+}
+
+
+fetch('produtos.json')
+  .then(r => r.json())
+  .then(dados => {
+    produtos = dados.sort((a, b) => a.nome.localeCompare(b.nome));
+    renderFiltros();
+    renderizarItens();
+    atualizarResumoCarrinho();  // <<< resumo inicial vazio
+  });

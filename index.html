@@ -1,94 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pedidos da Pizzaria</title>
-
-   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
 </head>
 <body>
-    <header>
-      <div class="grid-header">
-        
-        <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-               </svg>
-        </div>  
-
-        <div class="top-bar">
-            <div class="hamburguer" onclick="abrirMenu()">☰</div>
-            <h1>Gerenciador de Pedidos</h1>
-        </div>
-            
-       <nav class="menu">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="pedidos.html">Pedidos</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-        </nav>
+  <header>
+    <div class="grid-header">
+      <div class="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437
+              M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218
+              c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84
+              M7.5 14.25 5.106 5.272
+              M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+          />
+        </svg>
       </div>
-    </header>
 
-    <main class="grid-pedidos">
-        <section class="dados-pessoais"> 
-          <h2> Dados Pessoais </h2>
-          <form id="form-dados">
-              <div class="input-group">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
-              </div>
-              <div class="input-group">
-                <label for="pizzaria">Pizzaria:</label>
-                <input type="text" id="pizzaria" name="pizzaria" placeholder="Insira o nome da pizzaria" required>
-              </div>
-              <div class="input-group">
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" placeholder="Somente números" pattern="[0-9]{11}" required>
-              </div>
-            <div class="input-group">
-              <label for="endereco">Endereço:</label>
-              <input type="text" id="endereco" name="endereco" placeholder="Rua, avenida, etc." required>
-            </div>
-            <div class="input-group">
-              <label for="numero">Número:</label>
-              <input type="text" id="numero" name="numero" placeholder="Número" required>
-            </div>
-              <div class="input-group">
-                <label for="cep">CEP:</label>
-                <input type="text" id="cep" name="cep" placeholder="Somente números" pattern="[0-9]{8}" required>
-              </div>
-              <div class="input-group">
-                <label for="pagamento">Pagamento:</label>
-                <select id="pagamento" name="pagamento" required>
-                  <option value="">Selecione</option>
-                  <option value="Dinheiro">Dinheiro</option>
-                  <option value="Pix">Pix</option>
-                  <option value="Cartão">Cartão</option>
-                </select>
-              </div>
-            </form>
-          </section>
+      <div class="top-bar">
+        <div class="hamburguer" onclick="abrirMenu()">☰</div>
+        <h1>Gerenciador de Pedidos</h1>
+      </div>
 
-          <section class="itens-pedido">
-            <h2>Itens do Pedido</h2>
-            <input type="text" id="filtro-itens" placeholder="Filtrar itens...">
-            </div>
-            <div class="filtros-categorias" id="filtros-categorias"></div>
-            <div class="lista-itens-container" id="lista-itens"></div>
-          </section>
-    </main>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="pedidos.html">Pedidos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main class="grid-pedidos">
+    <section class="dados-pessoais">
+      <h2>Dados Pessoais</h2>
+      <form id="form-dados">
+        <div class="input-group">
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Insira seu nome"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="pizzaria">Pizzaria:</label>
+          <input
+            type="text"
+            id="pizzaria"
+            name="pizzaria"
+            placeholder="Insira o nome da pizzaria"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="telefone">Telefone:</label>
+          <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="Somente números"
+            pattern="[0-9]{11}"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="endereco">Endereço:</label>
+          <input
+            type="text"
+            id="endereco"
+            name="endereco"
+            placeholder="Rua, avenida, etc."
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="numero">Número:</label>
+          <input
+            type="text"
+            id="numero"
+            name="numero"
+            placeholder="Número"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="cep">CEP:</label>
+          <input
+            type="text"
+            id="cep"
+            name="cep"
+            placeholder="Somente números"
+            pattern="[0-9]{8}"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="pagamento">Pagamento:</label>
+          <select id="pagamento" name="pagamento" required>
+            <option value="">Selecione</option>
+            <option value="Dinheiro">Dinheiro</option>
+            <option value="Pix">Pix</option>
+            <option value="Cartão">Cartão</option>
+          </select>
+        </div>
+      </form>
+    </section>
 
-    <footer> 
-        <p>&copy; 2025 Tico Favaretti. Todos os direitos reservados.</p>
-        <p>Desenvolvido por Victor Millan</p>
-    </footer>
+    <section class="itens-pedido">
+      <h2>Itens do Pedido</h2>
+      <div class="filtros">
+        <div class="filtro-itens-container">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            id="filtro-itens"
+            placeholder="Filtrar itens..."
+          />
+        </div>
+        <div class="filtros-categorias" id="filtros-categorias"></div>
+      </div>
+      <div class="lista-itens-container" id="lista-itens"></div>
+    </section>
 
-<script src="script.js"></script>
+    <section class="resumo-carrinho">
+      <h2>Resumo do Pedido</h2>
+      <div id="lista-carrinho"></div>
+
+      <div class="total-container">
+        <p>
+          Total: <span id="total-pedido">R$ 0,00</span>
+        </p>
+        <button id="finalizarPedido">Enviar via WhatsApp</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tico Favaretti. Todos os direitos reservados.</p>
+    <p>Desenvolvido por Victor Millan</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
