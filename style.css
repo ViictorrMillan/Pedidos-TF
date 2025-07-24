@@ -186,6 +186,9 @@ footer {
 }
 
 
+/* Main */
+
+
 .grid-pedidos {
   display: grid;
   grid-template-columns: 350px  auto;
