@@ -124,8 +124,9 @@ footer {
   }
 
   .logo {
-    position: absolute;
+   position: absolute;
     left: 80%;
+    top: -10px;
   }
 
   .top-bar {
@@ -247,7 +248,7 @@ footer {
 
 
 /*  Main media */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .grid-pedidos {
     grid-template-columns: 1fr;
     padding-top: 130px;
