@@ -181,6 +181,9 @@ footer {
         grid-template-columns:  1fr;
     }
 
+  .top-bar {
+    font-size: 20px;
+  }
 
   .logo {
     display: none;
