@@ -7,11 +7,15 @@ body {
   background-attachment: fixed;
   font-family: Arial, sans-serif;
    background-color: #FFEDD5; 
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
 }
 
 header {
+   top: 0;
    width: 100%;
-   position: fixed;
+   position: absolute;
    border-radius: 0 0 10px 10px;
    background-color: #ff7a15;
    color: #faf1f1; 
@@ -23,7 +27,7 @@ header {
   align-items: center;
   margin: 0 auto;
   gap: 0 20px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   max-width: 1200px;
   width: 100%;
 
@@ -108,7 +112,7 @@ footer {
 
 @media (max-width: 1000px) {
     .grid-header {
-        grid-template-columns:  1fr auto;
+        grid-template-columns:  1fr;
         width: 100%;
         height: auto;
         margin: auto 0;
@@ -120,8 +124,8 @@ footer {
   }
 
   .logo {
-    width: 80px;
-    order: 2;
+    position: absolute;
+    left: 80%;
   }
 
   .top-bar {
@@ -168,6 +172,7 @@ footer {
 
 
 @media (max-width: 700px) {
+
     .grid-header {
         grid-template-columns:  1fr;
     }
@@ -177,4 +182,105 @@ footer {
     display: none;
   }
 
+}
+
+
+.grid-pedidos {
+  display: grid;
+  grid-template-columns: 350px  auto;
+  gap: 30px;
+  padding: 130px 20px 80px; 
+  width: 100%;
+  margin: 0 auto;
+  flex: 1; 
+}
+
+
+.dados-pessoais,
+.itens-pedido {
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  height: calc(100vh - 300px); 
+  background: rgba(255, 255, 255, 0.12); 
+}
+
+.dados-pessoais {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#form-dados {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#form-dados .input-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#form-dados label {
+  width: 100px; 
+  font-size: 16px;         
+  font-weight: bold;
+  text-align: right;     
+  margin-right: 3px; 
+}
+
+#form-dados input,
+#form-dados select {
+  width: 250px;         
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+/*  Main media */
+@media (max-width: 768px) {
+  .grid-pedidos {
+    grid-template-columns: 1fr;
+    padding-top: 130px;
+  }
+
+  .dados-pessoais, .itens-pedido {
+    height: auto;
+    padding: 15px;
+  }
+
+  #form-dados {
+    gap: 20px;         
+    align-items: stretch;
+    width: 100%;          
+  }
+
+#form-dados .input-group {
+  justify-content: flex-start; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center; 
+}
+
+#form-dados label {
+  width: 100px; 
+  margin: 0;
+}
+
+#form-dados input,
+#form-dados select {
+  flex: 1;
+  max-width: 100%;
+  min-width: 0;
+}
 }

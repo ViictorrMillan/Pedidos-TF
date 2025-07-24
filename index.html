@@ -33,7 +33,52 @@
     </header>
 
     <main class="grid-pedidos">
+        <section class="dados-pessoais"> 
+          <h2> Dados Pessoais </h2>
 
+      <form id="form-dados">
+  <div class="input-group">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+  </div>
+  <div class="input-group">
+    <label for="pizzaria">Pizzaria:</label>
+    <input type="text" id="pizzaria" name="pizzaria" placeholder="Insira o nome da pizzaria" required>
+  </div>
+  <div class="input-group">
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" placeholder="Somente números" pattern="[0-9]{11}" required>
+  </div>
+<div class="input-group">
+  <label for="endereco">Endereço:</label>
+  <input type="text" id="endereco" name="endereco" placeholder="Rua, avenida, etc." required>
+</div>
+<div class="input-group">
+  <label for="numero">Número:</label>
+  <input type="text" id="numero" name="numero" placeholder="Número" required>
+</div>
+  <div class="input-group">
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" name="cep" placeholder="Somente números" pattern="[0-9]{8}" required>
+  </div>
+  <div class="input-group">
+    <label for="pagamento">Pagamento:</label>
+    <select id="pagamento" name="pagamento" required>
+      <option value="">Selecione</option>
+      <option value="Dinheiro">Dinheiro</option>
+      <option value="Pix">Pix</option>
+      <option value="Cartão">Cartão</option>
+    </select>
+  </div>
+</form>
+
+
+        </section>
+
+        <section class="itens-pedido"> 
+               <h2> Itens selecionados</h2>
+
+        </section>
     </main>
 
 
