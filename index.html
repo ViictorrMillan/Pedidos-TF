@@ -7,6 +7,7 @@
 
    <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -73,18 +74,12 @@
             </form>
           </section>
 
-
-          <section class="itens-pedido" id="itens-pedido">
-          <h2>Itens do Pedido</h2>
-
-          <!-- Campo filtro -->
-          <input type="text" id="filtro-itens" placeholder="Filtrar itens..." />
-
-          <!-- Container da lista em grid -->
-          <div id="lista-itens" class="lista-itens-container"></div>
-        </section>
-
-
+          <section class="itens-pedido">
+            <h2>Itens do Pedido</h2>
+            <input type="text" id="filtro-itens" placeholder="Filtrar itens...">
+            <div class="filtros-categorias" id="filtros-categorias"></div>
+            <div class="lista-itens-container" id="lista-itens"></div>
+          </section>
     </main>
 
 
