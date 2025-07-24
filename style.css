@@ -258,6 +258,8 @@ footer {
 }
 
 
+/* itens-pedido */
+
 
 /*  Main media */
 @media (max-width: 700px) {
@@ -266,15 +268,16 @@ footer {
     padding-top: 80px;
   }
 
-  .dados-pessoais, .itens-pedido {
-    height: auto;
+  .dados-pessoais {
+    height: 500px;
     padding: 15px;
+    width: 100%;
   }
 
   #form-dados {
     gap: 20px;         
     align-items: stretch;
-    width: 100%;          
+    width: 100%;    
   }
 
 #form-dados .input-group {
@@ -296,4 +299,64 @@ footer {
   max-width: 100%;
   min-width: 0;
 }
+}
+
+.itens-pedido {
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  height: calc(100vh - 300px);
+  background: rgba(255, 255, 255, 0.12);
+  display: flex;
+  flex-direction: column;
+}
+
+.itens-pedido h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#filtro-itens {
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.lista-itens-container {
+  flex: 1;              
+  overflow-y: auto;    
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
+  padding-right: 5px;   /* espaço para scrollbar */
+}
+
+.item-pedido {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px; /* altura fixa para uniformidade */
+}
+
+.info-produto {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagem-produto img {
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+  margin: 0 auto;
 }
