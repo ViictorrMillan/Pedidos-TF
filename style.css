@@ -181,7 +181,7 @@ footer {
         grid-template-columns:  1fr;
     }
 
-  .top-bar {
+  .top-bar h1 {
     font-size: 20px;
   }
 
