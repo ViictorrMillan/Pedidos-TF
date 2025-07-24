@@ -133,10 +133,12 @@ footer {
   .top-bar {
     order: 1;
     padding: 0;
+    flex-wrap: nowrap;
   }
 
   .top-bar h1 {
     font-size: 26px;
+
 
   }
 
