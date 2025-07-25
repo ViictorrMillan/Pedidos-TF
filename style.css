@@ -102,8 +102,9 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 2px 0;
   border-radius:10px 10px 0 0;
+  height: 85px;
 }
 
 /* Main Grid Pedidos */
@@ -161,7 +162,6 @@ footer {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  gap: 20px;
 }
 
 #form-dados .input-group {
@@ -171,7 +171,7 @@ footer {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 15px;
 }
 
 #form-dados label {
@@ -219,6 +219,19 @@ footer {
   align-items: center;
   padding: 10px;
   margin: 0 auto;
+}
+
+.filtro-itens-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 2px;
+}
+
+.filtro-itens-container i {
+  font-size: 1.5rem;
+
+  padding: 5px;
 }
 
 #filtro-itens {
@@ -538,7 +551,8 @@ footer {
 
 /* max-width 700px */
 @media (max-width: 700px) {
-  .grid-header {
+
+    .grid-header {
     grid-template-columns: 1fr;
   }
 
@@ -550,11 +564,7 @@ footer {
     display: none;
   }
 
-}
 
-
-/* max-width 375px */
-@media (max-width: 700px) {
   .lista-itens-container {
     grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
     gap: 10px;
