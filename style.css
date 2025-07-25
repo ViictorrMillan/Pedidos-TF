@@ -554,7 +554,7 @@ footer {
 
 
 /* max-width 375px */
-@media (max-width: 375px) {
+@media (max-width: 700px) {
   .lista-itens-container {
     grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
     gap: 10px;
