@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -8,9 +9,10 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #FFEDD5; 
   display: flex;
-  min-height: 100vh;
+  min-height: 100svh;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 header {
@@ -267,6 +269,7 @@ footer {
 .lista-itens-container {
   flex: 1;
   overflow-y: auto;
+  max-height: 600px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 20px;

@@ -4,965 +4,367 @@
     "codigo": "01",
     "imagem": "",
     "categoria": "queijos",
-    "preco": 5.0
+    "preco": 5.0,
+    "promocao": false
   },
   {
     "nome": "MUSSARELA NENE",
     "codigo": "02",
     "imagem": "",
     "categoria": "queijos",
-    "preco": 7.5
-  },
-  {
-    "nome": "MMUSSARELA BUFALA",
-    "codigo": "21",
-    "imagem": "",
-    "categoria": "queijos",
-    "preco": 10.0
+    "preco": 7.5,
+    "promocao": false
   },
   {
     "nome": "PROVOLONE",
     "codigo": "03",
     "imagem": "",
     "categoria": "queijos",
-    "preco": 12.5
+    "preco": 12.5,
+    "promocao": false
   },
   {
     "nome": "PARMESÃO",
     "codigo": "04",
     "imagem": "",
     "categoria": "queijos",
-    "preco": 15.0
+    "preco": 15.0,
+    "promocao": false
   },
   {
     "nome": "GORGONZOLA",
     "codigo": "05",
     "imagem": "",
     "categoria": "queijos",
-    "preco": 17.5
-  },
-  {
-    "nome": "C. FRESCO",
-    "codigo": "173",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 20.0
-  },
-  {
-    "nome": "CHEDDAR",
-    "codigo": "08",
-    "imagem": "",
-    "categoria": "queijos",
-    "preco": 22.5
-  },
-  {
-    "nome": "CALABRESA FITNESS",
-    "codigo": "11",
-    "imagem": "",
-    "categoria": "carnes",
-    "preco": 25.0
-  },
-  {
-    "nome": "CALABRESA AURORA",
-    "codigo": "42",
-    "imagem": "",
-    "categoria": "carnes",
-    "preco": 27.5
-  },
-  {
-    "nome": "APRESUNTADO",
-    "codigo": "12",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 5.0
-  },
-  {
-    "nome": "CARNE SECA",
-    "codigo": "10",
-    "imagem": "",
-    "categoria": "carnes",
-    "preco": 7.5
-  },
-  {
-    "nome": "TOMATE SECO",
-    "codigo": "21",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 10.0
-  },
-  {
-    "nome": "LOMBINHO",
-    "codigo": "07",
-    "imagem": "",
-    "categoria": "carnes",
-    "preco": 12.5
+    "preco": 17.5,
+    "promocao": false
   },
   {
     "nome": "PEITO PERU",
     "codigo": "06",
     "imagem": "",
     "categoria": "carnes",
-    "preco": 15.0
+    "preco": 15.0,
+    "promocao": false
   },
   {
-    "nome": "GOIABADA",
-    "codigo": "13",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 17.5
-  },
-  {
-    "nome": "CREAM CHEESE",
-    "codigo": "144",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 20.0
-  },
-  {
-    "nome": "FILÉZINHO",
-    "codigo": "46",
+    "nome": "LOMBINHO",
+    "codigo": "07",
     "imagem": "",
     "categoria": "carnes",
-    "preco": 22.5
+    "preco": 12.5,
+    "promocao": false
   },
   {
-    "nome": "CAMARÃO",
-    "codigo": "65",
+    "nome": "CARNE SECA",
+    "codigo": "10",
     "imagem": "",
     "categoria": "carnes",
-    "preco": 25.0
+    "preco": 7.5,
+    "promocao": false
   },
   {
-    "nome": "BACON FATIADO",
-    "codigo": "15",
+    "nome": "CALABRESA FITNESS",
+    "codigo": "11",
     "imagem": "",
     "categoria": "carnes",
-    "preco": 27.5
+    "preco": 25.0,
+    "promocao": false
   },
   {
-    "nome": "PÁPRICA",
-    "codigo": "76",
+    "nome": "APRESUNTADO",
+    "codigo": "12",
     "imagem": "",
     "categoria": "outros",
-    "preco": 5.0
+    "preco": 5.0,
+    "promocao": false
   },
   {
-    "nome": "PEPPERONI",
-    "codigo": "72",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 7.5
-  },
-  {
-    "nome": "MILHO",
-    "codigo": "23",
+    "nome": "TOMATE SECO",
+    "codigo": "21",
     "imagem": "",
     "categoria": "vegetais",
-    "preco": 10.0
-  },
-  {
-    "nome": "ATUM POUCH",
-    "codigo": "31",
-    "imagem": "",
-    "categoria": "carnes",
-    "preco": 12.5
-  },
-  {
-    "nome": "ATUM PESCADOR SÓLIDO",
-    "codigo": "32",
-    "imagem": "",
-    "categoria": "carnes",
-    "preco": 15.0
-  },
-  {
-    "nome": "TOMATE",
-    "codigo": "30",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 17.5
-  },
-  {
-    "nome": "FERMENTO SECO",
-    "codigo": "74",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 20.0
-  },
-  {
-    "nome": "VINAGRE",
-    "codigo": "27",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 22.5
-  },
-  {
-    "nome": "EXTRATO/TOMATE",
-    "codigo": "30",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 25.0
-  },
-  {
-    "nome": "AÇÚCAR",
-    "codigo": "34",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 27.5
-  },
-  {
-    "nome": "MOLHO PIMENTA",
-    "codigo": "35",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 5.0
-  },
-  {
-    "nome": "MOLHO SHOYO",
-    "codigo": "36",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 7.5
-  },
-  {
-    "nome": "TEMPERO CHEF",
-    "codigo": "38",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 10.0
-  },
-  {
-    "nome": "MARGARINA",
-    "codigo": "37",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 12.5
-  },
-  {
-    "nome": "CREME LEITE CAIXINHA",
-    "codigo": "444",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 15.0
-  },
-  {
-    "nome": "CREME LEITE LATA",
-    "codigo": "44",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 17.5
-  },
-  {
-    "nome": "LEITE CONDENSADO LATA",
-    "codigo": "45",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 20.0
-  },
-  {
-    "nome": "LEITE NINHO LATA",
-    "codigo": "4550",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 22.5
-  },
-  {
-    "nome": "CHOCO GRANULADO",
-    "codigo": "48",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 25.0
-  },
-  {
-    "nome": "CHOCO RALADO",
-    "codigo": "48",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 27.5
-  },
-  {
-    "nome": "CONFETE MM'S",
-    "codigo": "152",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 5.0
-  },
-  {
-    "nome": "SAZON",
-    "codigo": "31",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 7.5
-  },
-  {
-    "nome": "ALHO FRITO",
-    "codigo": "53",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 10.0
-  },
-  {
-    "nome": "ALFACE",
-    "codigo": "54",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 12.5
-  },
-  {
-    "nome": "CREME PN",
-    "codigo": "94",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 15.0
-  },
-  {
-    "nome": "HARALD BRANCO",
-    "codigo": "200",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 17.5
-  },
-  {
-    "nome": "HARALD AO LEITE",
-    "codigo": "201",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 20.0
-  },
-  {
-    "nome": "DOCE DE LEITE",
-    "codigo": "204",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 22.5
-  },
-  {
-    "nome": "NUTELLA POTE",
-    "codigo": "203",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 25.0
-  },
-  {
-    "nome": "FARINHA PASTEL",
-    "codigo": "977",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 27.5
-  },
-  {
-    "nome": "FARINHA PIZZA",
-    "codigo": "97",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 5.0
-  },
-  {
-    "nome": "CEBOLA ROXA",
-    "codigo": "098",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 7.5
-  },
-  {
-    "nome": "FUBÁ",
-    "codigo": "90",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 10.0
+    "preco": 10.0,
+    "promocao": false
   },
   {
     "nome": "ORÉGANO",
     "codigo": "22",
     "imagem": "",
     "categoria": "vegetais",
-    "preco": 12.5
+    "preco": 12.5,
+    "promocao": false
   },
   {
-    "nome": "GRANEL",
-    "codigo": "158",
+    "nome": "MILHO",
+    "codigo": "23",
+    "imagem": "",
+    "categoria": "vegetais",
+    "preco": 10.0,
+    "promocao": false
+  },
+  {
+    "nome": "TOMATE",
+    "codigo": "30",
+    "imagem": "",
+    "categoria": "vegetais",
+    "preco": 17.5,
+    "promocao": false
+  },
+  {
+    "nome": "EXTRATO/TOMATE",
+    "codigo": "30",
+    "imagem": "",
+    "categoria": "vegetais",
+    "preco": 25.0,
+    "promocao": false
+  },
+  {
+    "nome": "ATUM POUCH",
+    "codigo": "31",
+    "imagem": "",
+    "categoria": "carnes",
+    "preco": 12.5,
+    "promocao": false
+  },
+  {
+    "nome": "SAZON",
+    "codigo": "31",
     "imagem": "",
     "categoria": "outros",
-    "preco": 15.0
+    "preco": 7.5,
+    "promocao": false
+  },
+  {
+    "nome": "ATUM PESCADOR SÓLIDO",
+    "codigo": "32",
+    "imagem": "",
+    "categoria": "carnes",
+    "preco": 15.0,
+    "promocao": false
+  },
+  {
+    "nome": "AÇÚCAR",
+    "codigo": "34",
+    "imagem": "",
+    "categoria": "ingredientes",
+    "preco": 27.5,
+    "promocao": false
+  },
+  {
+    "nome": "MOLHO PIMENTA",
+    "codigo": "35",
+    "imagem": "",
+    "categoria": "vegetais",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "MOLHO SHOYO",
+    "codigo": "36",
+    "imagem": "",
+    "categoria": "ingredientes",
+    "preco": 7.5,
+    "promocao": false
+  },
+  {
+    "nome": "MARGARINA",
+    "codigo": "37",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 12.5,
+    "promocao": false
+  },
+  {
+    "nome": "TEMPERO CHEF",
+    "codigo": "38",
+    "imagem": "",
+    "categoria": "ingredientes",
+    "preco": 10.0,
+    "promocao": false
+  },
+  {
+    "nome": "CALABRESA AURORA",
+    "codigo": "42",
+    "imagem": "",
+    "categoria": "carnes",
+    "preco": 27.5,
+    "promocao": false
+  },
+  {
+    "nome": "CREME LEITE LATA",
+    "codigo": "44",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 17.5,
+    "promocao": false
+  },
+  {
+    "nome": "LEITE CONDENSADO LATA",
+    "codigo": "45",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 20.0,
+    "promocao": false
+  },
+  {
+    "nome": "CHOCO GRANULADO",
+    "codigo": "48",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 25.0,
+    "promocao": false
+  },
+  {
+    "nome": "CHOCO RALADO",
+    "codigo": "48",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 27.5,
+    "promocao": false
+  },
+  {
+    "nome": "ALHO FRITO",
+    "codigo": "53",
+    "imagem": "",
+    "categoria": "vegetais",
+    "preco": 10.0,
+    "promocao": false
+  },
+  {
+    "nome": "ALFACE",
+    "codigo": "54",
+    "imagem": "",
+    "categoria": "vegetais",
+    "preco": 12.5,
+    "promocao": false
+  },
+  {
+    "nome": "FUBÁ",
+    "codigo": "90",
+    "imagem": "",
+    "categoria": "ingredientes",
+    "preco": 10.0,
+    "promocao": false
+  },
+  {
+    "nome": "CREME PN",
+    "codigo": "94",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 15.0,
+    "promocao": false
+  },
+  {
+    "nome": "FARINHA PIZZA",
+    "codigo": "97",
+    "imagem": "",
+    "categoria": "ingredientes",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "CEBOLA ROXA",
+    "codigo": "098",
+    "imagem": "",
+    "categoria": "vegetais",
+    "preco": 7.5,
+    "promocao": false
+  },
+  {
+    "nome": "CONFETE MM'S",
+    "codigo": "152",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 5.0,
+    "promocao": false
   },
   {
     "nome": "GRANEL LIMÃO",
     "codigo": "154",
     "imagem": "",
     "categoria": "outros",
-    "preco": 17.5
+    "preco": 17.5,
+    "promocao": false
+  },
+  {
+    "nome": "GRANEL",
+    "codigo": "158",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 15.0,
+    "promocao": false
+  },
+  {
+    "nome": "HARALD BRANCO",
+    "codigo": "200",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 17.5,
+    "promocao": false
+  },
+  {
+    "nome": "HARALD AO LEITE",
+    "codigo": "201",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 20.0,
+    "promocao": false
+  },
+  {
+    "nome": "NUTELLA POTE",
+    "codigo": "203",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 25.0,
+    "promocao": false
+  },
+  {
+    "nome": "DOCE DE LEITE",
+    "codigo": "204",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 22.5,
+    "promocao": false
+  },
+  {
+    "nome": "CREME LEITE CAIXINHA",
+    "codigo": "444",
+    "imagem": "",
+    "categoria": "doces",
+    "preco": 15.0,
+    "promocao": false
   },
   {
     "nome": "BARBECUE",
     "codigo": "622",
     "imagem": "",
     "categoria": "outros",
-    "preco": 20.0
+    "preco": 20.0,
+    "promocao": false
+  },
+  {
+    "nome": "FARINHA PASTEL",
+    "codigo": "977",
+    "imagem": "",
+    "categoria": "ingredientes",
+    "preco": 27.5,
+    "promocao": false
   },
   {
     "nome": "CEBOLA CRISPY",
     "codigo": "988",
     "imagem": "",
     "categoria": "vegetais",
-    "preco": 22.5
+    "preco": 22.5,
+    "promocao": false
   },
   {
-    "nome": "MOLHO TARE",
-    "codigo": "154",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 25.0
-  },
-  {
-    "nome": "BOBINA SACO",
-    "codigo": "58",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 27.5
-  },
-  {
-    "nome": "BOBINA FOLHA",
-    "codigo": "59",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 5.0
-  },
-  {
-    "nome": "BOBINA SACO PFC",
-    "codigo": "122",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 7.5
-  },
-  {
-    "nome": "POTE P/ PUDIM",
-    "codigo": "60",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 10.0
-  },
-  {
-    "nome": "COPO DESCARTÁVEL",
-    "codigo": "61",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 12.5
-  },
-  {
-    "nome": "SAQUINHO P/ LHAMOS",
-    "codigo": "75",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 15.0
-  },
-  {
-    "nome": "SACO LIXO 100LT",
-    "codigo": "83",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 17.5
-  },
-  {
-    "nome": "SACO LIXO 60LT",
-    "codigo": "833",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 20.0
-  },
-  {
-    "nome": "VASOURA",
-    "codigo": "88",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 22.5
-  },
-  {
-    "nome": "VASOURINHA",
-    "codigo": "88",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 25.0
-  },
-  {
-    "nome": "DETERGENTE",
-    "codigo": "89",
-    "imagem": "",
-    "categoria": "limpeza",
-    "preco": 27.5
-  },
-  {
-    "nome": "ÁLCOOL DE PANO",
-    "codigo": "93",
-    "imagem": "",
-    "categoria": "limpeza",
-    "preco": 5.0
-  },
-  {
-    "nome": "VEJAS",
-    "codigo": "92",
-    "imagem": "",
-    "categoria": "limpeza",
-    "preco": 7.5
-  },
-  {
-    "nome": "BOMBRIL",
-    "codigo": "146",
-    "imagem": "",
-    "categoria": "limpeza",
-    "preco": 10.0
-  },
-  {
-    "nome": "COCA ZERO 2LT",
-    "codigo": "155",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 12.5
-  },
-  {
-    "nome": "COCA ZERO",
-    "codigo": "151",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 15.0
-  },
-  {
-    "nome": "GUARANÁ ZERO 2LT",
-    "codigo": "104",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 17.5
-  },
-  {
-    "nome": "FANTA UVA",
-    "codigo": "105",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 20.0
-  },
-  {
-    "nome": "FANTA LARANJA",
-    "codigo": "104",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 22.5
-  },
-  {
-    "nome": "SCHWEPPES CITROS",
-    "codigo": "103",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 25.0
-  },
-  {
-    "nome": "SPRITE",
-    "codigo": "106",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 27.5
-  },
-  {
-    "nome": "CERV. SKOL",
-    "codigo": "150",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 5.0
-  },
-  {
-    "nome": "CERV. BUDWEISER",
-    "codigo": "161",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 7.5
-  },
-  {
-    "nome": "COCA 600",
-    "codigo": "107",
-    "imagem": "/imgs/produtos/coca_600.png",
-    "categoria": "bebidas",
-    "preco": 10.0
-  },
-  {
-    "nome": "GUARANÁ 600",
-    "codigo": "109",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 12.5
-  },
-  {
-    "nome": "ÁGUA 500",
-    "codigo": "111",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 15.0
-  },
-  {
-    "nome": "H2O LIMÃO",
-    "codigo": "185",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 17.5
-  },
-  {
-    "nome": "CERV. HEINEKEN",
-    "codigo": "165",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 20.0
-  },
-  {
-    "nome": "VINHO LA CANTINELA",
-    "codigo": "160",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 22.5
-  },
-  {
-    "nome": "VINHO CHILENO",
-    "codigo": "171",
-    "imagem": "",
-    "categoria": "bebidas",
-    "preco": 25.0
-  },
-  {
-    "nome": "DEL VALE MARACUJÁ",
-    "codigo": "140",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 27.5
-  },
-  {
-    "nome": "DEL VALE UVA",
-    "codigo": "141",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 5.0
-  },
-  {
-    "nome": "BANDEJA 22",
-    "codigo": "80",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 7.5
-  },
-  {
-    "nome": "BANDEJA 24",
-    "codigo": "81",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 10.0
-  },
-  {
-    "nome": "ENVELOPE",
-    "codigo": "56",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 12.5
-  },
-  {
-    "nome": "BOBINA FISCAL",
-    "codigo": "90",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 15.0
-  },
-  {
-    "nome": "CHAMP",
-    "codigo": "151",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 17.5
-  },
-  {
-    "nome": "AZEITONA FATADA",
-    "codigo": "75",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 20.0
-  },
-  {
-    "nome": "AZEITONA AZAPA",
-    "codigo": "76",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 22.5
-  },
-  {
-    "nome": "AZEITONA S/ CAROÇO",
-    "codigo": "755",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 25.0
-  },
-  {
-    "nome": "SACOLA GRANDE",
-    "codigo": "100",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 27.5
-  },
-  {
-    "nome": "SACOLA PEQUENA",
-    "codigo": "121",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 5.0
-  },
-  {
-    "nome": "VASOURINHA",
-    "codigo": "155",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 7.5
-  },
-  {
-    "nome": "ESPÁTULA",
-    "codigo": "181",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 10.0
-  },
-  {
-    "nome": "ABRIDOR OVOS",
-    "codigo": "20",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 12.5
-  },
-  {
-    "nome": "ABRIDOR LATA",
-    "codigo": "33",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 15.0
-  },
-  {
-    "nome": "ALVEJANTE",
-    "codigo": "158",
-    "imagem": "",
-    "categoria": "limpeza",
-    "preco": 17.5
-  },
-  {
-    "nome": "CALÇA PIZZAIÓLO",
-    "codigo": "156",
-    "imagem": "",
-    "categoria": "uniformes",
-    "preco": 20.0
-  },
-  {
-    "nome": "BANDANA",
-    "codigo": "157",
-    "imagem": "",
-    "categoria": "uniformes",
-    "preco": 22.5
-  },
-  {
-    "nome": "CAMISA TELEFONISTA",
-    "codigo": "39",
-    "imagem": "",
-    "categoria": "uniformes",
-    "preco": 25.0
-  },
-  {
-    "nome": "SAPATO",
-    "codigo": "40",
-    "imagem": "",
-    "categoria": "uniformes",
-    "preco": 27.5
-  },
-  {
-    "nome": "TOUCA DESCARTÁVEL",
-    "codigo": "58",
-    "imagem": "",
-    "categoria": "uniformes",
-    "preco": 5.0
-  },
-  {
-    "nome": "PAPEL TOALHA",
-    "codigo": "63",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 7.5
-  },
-  {
-    "nome": "CAIXA DE LUVA",
-    "codigo": "10",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 10.0
-  },
-  {
-    "nome": "CANETA",
-    "codigo": "126",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 12.5
-  },
-  {
-    "nome": "MARCA TEXTO",
-    "codigo": "125",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 15.0
-  },
-  {
-    "nome": "GRAMPEADOR",
-    "codigo": "127",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 17.5
-  },
-  {
-    "nome": "BRAMPO",
-    "codigo": "147",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 20.0
-  },
-  {
-    "nome": "ELÁSTICO",
-    "codigo": "198",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 22.5
-  },
-  {
-    "nome": "CLIPS",
-    "codigo": "130",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 25.0
-  },
-  {
-    "nome": "COMANDA",
-    "codigo": "132",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 27.5
-  },
-  {
-    "nome": "POTE DURALEX",
-    "codigo": "135",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 5.0
-  },
-  {
-    "nome": "PINCEL",
-    "codigo": "133",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 7.5
-  },
-  {
-    "nome": "LACRE DE PIZZA",
-    "codigo": "158",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 10.0
-  },
-  {
-    "nome": "BLOCO RICO",
-    "codigo": "149",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 12.5
-  },
-  {
-    "nome": "FOLHA LANCHE",
-    "codigo": "151",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 15.0
-  },
-  {
-    "nome": "FOLHA MOTOQUEIRO",
-    "codigo": "167",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 17.5
-  },
-  {
-    "nome": "PIZZA PEQUENA",
-    "codigo": "136",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 20.0
-  },
-  {
-    "nome": "CAIXA ESFIHA",
-    "codigo": "906",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 22.5
-  },
-  {
-    "nome": "CAIXA ESFIHA PEQUENA",
-    "codigo": "9066",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 25.0
-  },
-  {
-    "nome": "CAIXA TOMATE",
-    "codigo": "163",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 27.5
-  },
-  {
-    "nome": "SACO LIMÃO",
-    "codigo": "163",
-    "imagem": "",
-    "categoria": "embalagens",
-    "preco": 5.0
-  },
-  {
-    "nome": "MANGA",
-    "codigo": "162",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 7.5
-  },
-  {
-    "nome": "MORANGO",
-    "codigo": "161",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 10.0
-  },
-  {
-    "nome": "LEITE NINHO",
-    "codigo": "455",
+    "nome": "LEITE NINHO LATA",
+    "codigo": "4550",
     "imagem": "",
     "categoria": "doces",
-    "preco": 12.5
-  },
-  {
-    "nome": "CARNE MOÍDA",
-    "codigo": "70",
-    "imagem": "",
-    "categoria": "carnes",
-    "preco": 15.0
-  },
-  {
-    "nome": "ALHO PORÓ",
-    "codigo": "200",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 17.5
-  },
-  {
-    "nome": "SHITAKE",
-    "codigo": "201",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 20.0
-  },
-  {
-    "nome": "ESCAROLA",
-    "codigo": "",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 22.5
+    "preco": 22.5,
+    "promocao": false
   }
 ]
