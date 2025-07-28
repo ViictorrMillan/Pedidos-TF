@@ -471,7 +471,7 @@ footer {
 
    .grid-pedidos {
     grid-template-columns: 1fr;
-    padding-top: 100px;
+    padding-top: 50px;
     gap: 20px;
     min-height: auto;
   }
