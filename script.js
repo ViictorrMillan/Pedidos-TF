@@ -3,7 +3,6 @@ function abrirMenu() {
   menu.classList.toggle('active');
 }
 
-// Estado dos filtros e dados
 const carrinho = {};
 let produtos = [];
 let categoriaAtiva = '';
@@ -27,14 +26,12 @@ function renderFiltros() {
   };
   filtrosBox.appendChild(btnPromo);
 
-  // Botões categorias
   categorias.forEach(cat => {
     const btn = document.createElement('button');
     btn.textContent = cat;
     btn.onclick = () => {
       categoriaAtiva = categoriaAtiva === cat ? '' : cat;
 
-      // Atualiza classes para categoria (sem mexer no botão promo)
       document.querySelectorAll('.filtros-categorias button').forEach(b => {
         if (b !== btnPromo) b.classList.remove('ativo');
       });
@@ -118,7 +115,7 @@ function atualizarResumoCarrinho() {
   totalPedido.textContent = `R$ ${total.toFixed(2)}`;
 }
 
-// Busca os produtos do JSON e inicializa o app
+
 fetch('produtos.json')
   .then(r => r.json())
   .then(dados => {
@@ -166,3 +163,5 @@ document.getElementById('finalizarPedido').addEventListener('click', () => {
   const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
   window.open(url, '_blank');
 });
+
+

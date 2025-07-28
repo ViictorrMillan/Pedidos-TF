@@ -3,7 +3,7 @@
     "nome": "MUSSARELA 3M",
     "codigo": "01",
     "imagem": "",
-    "categoria": "queijos",
+    "categoria": "queijos e laticínios",
     "preco": 5.0,
     "promocao": false
   },
@@ -11,360 +11,1248 @@
     "nome": "MUSSARELA NENE",
     "codigo": "02",
     "imagem": "",
-    "categoria": "queijos",
-    "preco": 7.5,
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "PROVOLONE",
+    "nome": "MUSSARELA Bufula",
     "codigo": "03",
     "imagem": "",
-    "categoria": "queijos",
-    "preco": 12.5,
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "PARMESÃO",
+    "nome": "Provolone",
     "codigo": "04",
     "imagem": "",
-    "categoria": "queijos",
-    "preco": 15.0,
+    "categoria": "outros",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "GORGONZOLA",
+    "nome": "Parmesão",
     "codigo": "05",
     "imagem": "",
-    "categoria": "queijos",
-    "preco": 17.5,
+    "categoria": "outros",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "PEITO PERU",
+    "nome": "Gorgonzola",
     "codigo": "06",
     "imagem": "",
-    "categoria": "carnes",
-    "preco": 15.0,
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "LOMBINHO",
+    "nome": "Catupiry",
     "codigo": "07",
     "imagem": "",
-    "categoria": "carnes",
-    "preco": 12.5,
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CARNE SECA",
+    "nome": "Cheddar",
+    "codigo": "08",
+    "imagem": "",
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Calabresa frimesa",
+    "codigo": "09",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Calabresa Aurora",
     "codigo": "10",
     "imagem": "",
-    "categoria": "carnes",
-    "preco": 7.5,
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CALABRESA FITNESS",
+    "nome": "Apresuntado",
     "codigo": "11",
     "imagem": "",
-    "categoria": "carnes",
-    "preco": 25.0,
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "APRESUNTADO",
+    "nome": "Carne Seca",
     "codigo": "12",
     "imagem": "",
-    "categoria": "outros",
+    "categoria": "carnes e embutidos",
     "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "TOMATE SECO",
+    "nome": "Tomate Seco",
+    "codigo": "13",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Lombo",
+    "codigo": "14",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Peito de Peru",
+    "codigo": "15",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Goiabada",
+    "codigo": "16",
+    "imagem": "",
+    "categoria": "doces e confeitaria",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Aliche",
+    "codigo": "17",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Cream cheese",
+    "codigo": "18",
+    "imagem": "",
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Filezinho",
+    "codigo": "19",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Camarão",
+    "codigo": "20",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bacalhau",
     "codigo": "21",
     "imagem": "",
-    "categoria": "vegetais",
-    "preco": 10.0,
+    "categoria": "outros",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "ORÉGANO",
+    "nome": "Bacon fatiado",
     "codigo": "22",
     "imagem": "",
-    "categoria": "vegetais",
-    "preco": 12.5,
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "MILHO",
+    "nome": "Parma",
     "codigo": "23",
     "imagem": "",
-    "categoria": "vegetais",
-    "preco": 10.0,
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "TOMATE",
+    "nome": "Pepperoni",
+    "codigo": "24",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Broculis",
+    "codigo": "25",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Milho",
+    "codigo": "26",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Ervilha",
+    "codigo": "27",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Palmito",
+    "codigo": "28",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Atum Pouch",
+    "codigo": "29",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Atum pescado solido",
+    "codigo": "29",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Óleo",
     "codigo": "30",
     "imagem": "",
-    "categoria": "vegetais",
-    "preco": 17.5,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "EXTRATO/TOMATE",
-    "codigo": "30",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 25.0,
-    "promocao": false
-  },
-  {
-    "nome": "ATUM POUCH",
-    "codigo": "31",
-    "imagem": "",
-    "categoria": "carnes",
-    "preco": 12.5,
-    "promocao": false
-  },
-  {
-    "nome": "SAZON",
+    "nome": "Fermento Seco",
     "codigo": "31",
     "imagem": "",
     "categoria": "outros",
-    "preco": 7.5,
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "ATUM PESCADOR SÓLIDO",
+    "nome": "Vinagre",
     "codigo": "32",
     "imagem": "",
-    "categoria": "carnes",
-    "preco": 15.0,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "AÇÚCAR",
+    "nome": "Ovos",
+    "codigo": "33",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Polpa de Tomate",
     "codigo": "34",
     "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 27.5,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "MOLHO PIMENTA",
+    "nome": "Sal",
     "codigo": "35",
     "imagem": "",
-    "categoria": "vegetais",
+    "categoria": "vegetais e molhos",
     "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "MOLHO SHOYO",
+    "nome": "Açúcar",
     "codigo": "36",
     "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 7.5,
+    "categoria": "outros",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "MARGARINA",
+    "nome": "Molho de Pimenta",
     "codigo": "37",
     "imagem": "",
-    "categoria": "outros",
-    "preco": 12.5,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "TEMPERO CHEF",
+    "nome": "Molho Shoyo",
     "codigo": "38",
     "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 10.0,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CALABRESA AURORA",
+    "nome": "Tempero Chef",
+    "codigo": "39",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Margarina",
+    "codigo": "40",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Creme de Leite Caixa",
+    "codigo": "41",
+    "imagem": "",
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Creme de Leite Lata",
     "codigo": "42",
     "imagem": "",
-    "categoria": "carnes",
-    "preco": 27.5,
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CREME LEITE LATA",
+    "nome": "Leite Condensado Lata",
+    "codigo": "43",
+    "imagem": "",
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Leite Ninho Lata",
     "codigo": "44",
     "imagem": "",
-    "categoria": "doces",
-    "preco": 17.5,
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "LEITE CONDENSADO LATA",
+    "nome": "Leite Condensado Lata",
     "codigo": "45",
     "imagem": "",
-    "categoria": "doces",
-    "preco": 20.0,
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CHOCO GRANULADO",
+    "nome": "Chocolate em Pó",
+    "codigo": "46",
+    "imagem": "",
+    "categoria": "doces e confeitaria",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Chocolate Granulado",
     "codigo": "48",
     "imagem": "",
-    "categoria": "doces",
-    "preco": 25.0,
+    "categoria": "doces e confeitaria",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CHOCO RALADO",
-    "codigo": "48",
+    "nome": "Coco Ralado",
+    "codigo": "49",
     "imagem": "",
-    "categoria": "doces",
-    "preco": 27.5,
+    "categoria": "queijos e laticínios",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "ALHO FRITO",
+    "nome": "Confete M&M",
+    "codigo": "50",
+    "imagem": "",
+    "categoria": "doces e confeitaria",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Tempero Sazón",
+    "codigo": "51",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Pote de Alho",
+    "codigo": "52",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Alho Frito",
     "codigo": "53",
     "imagem": "",
-    "categoria": "vegetais",
-    "preco": 10.0,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "ALFACE",
+    "nome": "Canela em Pó",
     "codigo": "54",
     "imagem": "",
-    "categoria": "vegetais",
-    "preco": 12.5,
+    "categoria": "doces e confeitaria",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "FUBÁ",
+    "nome": "Harald Branco",
+    "codigo": "55",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Harald ao Leite",
+    "codigo": "56",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Doce de Leite",
+    "codigo": "57",
+    "imagem": "",
+    "categoria": "doces e confeitaria",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Pote de Nutella",
+    "codigo": "58",
+    "imagem": "",
+    "categoria": "doces e confeitaria",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Farinha de Pastel",
+    "codigo": "59",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Farinah de Pizza",
+    "codigo": "60",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Cebola",
+    "codigo": "61",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Cebola Roxa",
+    "codigo": "62",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Fuba",
+    "codigo": "63",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Orégano",
+    "codigo": "64",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Gergilim",
+    "codigo": "65",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Tempero Colorau",
+    "codigo": "66",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Barbecue",
+    "codigo": "67",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Cebola Crispy",
+    "codigo": "68",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Molho Tarê",
+    "codigo": "69",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bobina Saco Plastico",
+    "codigo": "70",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bobina Folha",
+    "codigo": "71",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bobina Saco pequeno",
+    "codigo": "72",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Pote para Rucula",
+    "codigo": "73",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa de Fósforo",
+    "codigo": "74",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Copo descartável",
+    "codigo": "75",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Papel TV",
+    "codigo": "76",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Saco Plástico",
+    "codigo": "77",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Saco de Lixo 100L",
+    "codigo": "78",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Saco de Lixo 60L",
+    "codigo": "79",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Vassoura",
+    "codigo": "80",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Rodo",
+    "codigo": "81",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Pá de Lixo",
+    "codigo": "82",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Papel Higiênico",
+    "codigo": "83",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Detergente",
+    "codigo": "84",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Sabão em Pó",
+    "codigo": "85",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Saco de Pano",
+    "codigo": "86",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Veja",
+    "codigo": "87",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bucha",
+    "codigo": "88",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Palha de Aço - Bombril",
+    "codigo": "89",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Coca-Cola 2L",
     "codigo": "90",
     "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 10.0,
+    "categoria": "outros",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CREME PN",
+    "nome": "Coca-Cola Zero 2L",
+    "codigo": "91",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Guarana Antartica 2L",
+    "codigo": "92",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Guarana Antartica Zero 2L",
+    "codigo": "93",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Fanta Laranja 2L",
     "codigo": "94",
     "imagem": "",
-    "categoria": "doces",
-    "preco": 15.0,
+    "categoria": "outros",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "FARINHA PIZZA",
+    "nome": "Fanta Uva 2L",
+    "codigo": "95",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Soda 2L",
+    "codigo": "96",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Schweppes Citrus 2L",
     "codigo": "97",
     "imagem": "",
-    "categoria": "ingredientes",
+    "categoria": "outros",
     "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CEBOLA ROXA",
-    "codigo": "098",
+    "nome": "Cerveja Skol 350ml",
+    "codigo": "98",
     "imagem": "",
-    "categoria": "vegetais",
-    "preco": 7.5,
+    "categoria": "outros",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "CONFETE MM'S",
+    "nome": "Cerveja Budweiser 350ml",
+    "codigo": "99",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Coca-Cola 600ml",
+    "codigo": "100",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Guarana Antartica 600ml",
+    "codigo": "101",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Água Mineral 500ml",
+    "codigo": "102",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "HB20 Limão",
+    "codigo": "103",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Cervenja Heineken 350ml",
+    "codigo": "104",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Vinho La Cantinella",
+    "codigo": "105",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Vinho Chileno",
+    "codigo": "106",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Del Valle Maracujá",
+    "codigo": "107",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Del Valle Uva",
+    "codigo": "108",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Del Valle Maracujá Lata",
+    "codigo": "109",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Del Valle Uva Lata",
+    "codigo": "110",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bandeja de papelão - 22",
+    "codigo": "111",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bandeja de papelão - 24",
+    "codigo": "112",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Envelope",
+    "codigo": "113",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bobina Fiscal",
+    "codigo": "114",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Champignon",
+    "codigo": "115",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Azeitona Fatiada",
+    "codigo": "116",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Azeitona Azapa",
+    "codigo": "117",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Azeitona Sem Caroço",
+    "codigo": "118",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Sacola Grande",
+    "codigo": "119",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Sacola Pequena",
+    "codigo": "120",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Vassourinha",
+    "codigo": "121",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Espátula",
+    "codigo": "122",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Cortador de Ovos",
+    "codigo": "123",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Abridor de Lata",
+    "codigo": "124",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Avental de Pizzaiolo",
+    "codigo": "125",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Calça de Pizzaiolo",
+    "codigo": "126",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bandana",
+    "codigo": "127",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Camisa de Telefonista",
+    "codigo": "128",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Calça de Telefonista",
+    "codigo": "129",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Touca de Telefonista",
+    "codigo": "130",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Touca Descartável",
+    "codigo": "131",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Papel Toalha",
+    "codigo": "132",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Balança",
+    "codigo": "133",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa de Luva",
+    "codigo": "134",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caneta",
+    "codigo": "135",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Marca Texto",
+    "codigo": "136",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Grampeador",
+    "codigo": "137",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa de Grampos",
+    "codigo": "138",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa de Elástico",
+    "codigo": "139",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa de Clips",
+    "codigo": "140",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Comanda",
+    "codigo": "141",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Porta Durex",
+    "codigo": "142",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bloco de Recíbo",
+    "codigo": "143",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa - Lacre de pizza",
+    "codigo": "144",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Bloco de Movimento",
+    "codigo": "145",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Calculadora",
+    "codigo": "146",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa de Esfiha Pequena",
+    "codigo": "147",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa Broto",
+    "codigo": "148",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Calzone",
+    "codigo": "149",
+    "imagem": "",
+    "categoria": "outros",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa de Tomate",
+    "codigo": "150",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Saco de Limão",
+    "codigo": "151",
+    "imagem": "",
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Caixa de Morango",
     "codigo": "152",
     "imagem": "",
-    "categoria": "doces",
+    "categoria": "outros",
     "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "GRANEL LIMÃO",
+    "nome": "Carne Moída",
+    "codigo": "153",
+    "imagem": "",
+    "categoria": "carnes e embutidos",
+    "preco": 5.0,
+    "promocao": false
+  },
+  {
+    "nome": "Alho Poró",
     "codigo": "154",
     "imagem": "",
-    "categoria": "outros",
-    "preco": 17.5,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "GRANEL",
-    "codigo": "158",
+    "nome": "Escarola",
+    "codigo": "155",
     "imagem": "",
-    "categoria": "outros",
-    "preco": 15.0,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "HARALD BRANCO",
-    "codigo": "200",
+    "nome": "Shitake",
+    "codigo": "156",
     "imagem": "",
-    "categoria": "doces",
-    "preco": 17.5,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "HARALD AO LEITE",
-    "codigo": "201",
+    "nome": "Manjeiricão",
+    "codigo": "157",
     "imagem": "",
-    "categoria": "doces",
-    "preco": 20.0,
-    "promocao": false
-  },
-  {
-    "nome": "NUTELLA POTE",
-    "codigo": "203",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 25.0,
-    "promocao": false
-  },
-  {
-    "nome": "DOCE DE LEITE",
-    "codigo": "204",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 22.5,
-    "promocao": false
-  },
-  {
-    "nome": "CREME LEITE CAIXINHA",
-    "codigo": "444",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 15.0,
-    "promocao": false
-  },
-  {
-    "nome": "BARBECUE",
-    "codigo": "622",
-    "imagem": "",
-    "categoria": "outros",
-    "preco": 20.0,
-    "promocao": false
-  },
-  {
-    "nome": "FARINHA PASTEL",
-    "codigo": "977",
-    "imagem": "",
-    "categoria": "ingredientes",
-    "preco": 27.5,
-    "promocao": false
-  },
-  {
-    "nome": "CEBOLA CRISPY",
-    "codigo": "988",
-    "imagem": "",
-    "categoria": "vegetais",
-    "preco": 22.5,
-    "promocao": false
-  },
-  {
-    "nome": "LEITE NINHO LATA",
-    "codigo": "4550",
-    "imagem": "",
-    "categoria": "doces",
-    "preco": 22.5,
+    "categoria": "vegetais e molhos",
+    "preco": 5.0,
     "promocao": false
   }
 ]
