@@ -2,7 +2,7 @@
   {
     "nome": "MUSSARELA 3M",
     "codigo": "01",
-    "imagem": "",
+    "imagem": "imgs/produtos/3m.jpeg",
     "categoria": "queijos e laticínios",
     "preco": 5.0,
     "promocao": false
@@ -218,7 +218,7 @@
   {
     "nome": "Palmito",
     "codigo": "28",
-    "imagem": "",
+    "imagem": "imgs/produtos/gavi.jpg",
     "categoria": "vegetais e molhos",
     "preco": 5.0,
     "promocao": false
@@ -472,7 +472,7 @@
     "promocao": false
   },
   {
-    "nome": "Farinah de Pizza",
+    "nome": "Farinha de Pizza",
     "codigo": "60",
     "imagem": "",
     "categoria": "outros",
@@ -690,7 +690,7 @@
   {
     "nome": "Veja",
     "codigo": "87",
-    "imagem": "",
+    "imagem": "/imgs/produtos/veja.jpg",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -714,7 +714,7 @@
   {
     "nome": "Coca-Cola 2L",
     "codigo": "90",
-    "imagem": "",
+    "imagem": "/imgs/produtos/coca_2l.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -722,23 +722,23 @@
   {
     "nome": "Coca-Cola Zero 2L",
     "codigo": "91",
-    "imagem": "",
+    "imagem": "/imgs/produtos/coca_2l0.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "Guarana Antartica 2L",
+    "nome": "Guaraná Antartica 2L",
     "codigo": "92",
-    "imagem": "",
+    "imagem": "/imgs/produtos/guarana_2l.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "Guarana Antartica Zero 2L",
+    "nome": "Guaraná Antartica Zero 2L",
     "codigo": "93",
-    "imagem": "",
+    "imagem": "/imgs/produtos/guarana_2l0.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -746,7 +746,7 @@
   {
     "nome": "Fanta Laranja 2L",
     "codigo": "94",
-    "imagem": "",
+    "imagem": "/imgs/produtos/fanta_la_2l.jpg",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -754,7 +754,7 @@
   {
     "nome": "Fanta Uva 2L",
     "codigo": "95",
-    "imagem": "",
+    "imagem": "/imgs/produtos/fanta_uva_2l.jpg",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -762,7 +762,7 @@
   {
     "nome": "Soda 2L",
     "codigo": "96",
-    "imagem": "",
+    "imagem": "/imgs/produtos/soda_2l.jpg",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -770,7 +770,7 @@
   {
     "nome": "Schweppes Citrus 2L",
     "codigo": "97",
-    "imagem": "",
+    "imagem": "/imgs/produtos/schwepps.jpg",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -778,7 +778,7 @@
   {
     "nome": "Cerveja Skol 350ml",
     "codigo": "98",
-    "imagem": "",
+    "imagem": "/imgs/produtos/skoll.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -786,7 +786,7 @@
   {
     "nome": "Cerveja Budweiser 350ml",
     "codigo": "99",
-    "imagem": "",
+    "imagem": "/imgs/produtos/bud.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -794,7 +794,7 @@
   {
     "nome": "Coca-Cola 600ml",
     "codigo": "100",
-    "imagem": "",
+    "imagem": "imgs/produtos/coca_600.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
@@ -802,23 +802,23 @@
   {
     "nome": "Guarana Antartica 600ml",
     "codigo": "101",
-    "imagem": "",
+    "imagem": "/imgs/produtos/guarana_600ml.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "Água Mineral 500ml",
+    "nome": "Água Mineral 510ml - Minalba",
     "codigo": "102",
-    "imagem": "",
+    "imagem": "/imgs/produtos/minalba.jpg",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
   },
   {
-    "nome": "HB20 Limão",
+    "nome": "H20 Limão",
     "codigo": "103",
-    "imagem": "",
+    "imagem": "/imgs/produtos/h20.png",
     "categoria": "vegetais e molhos",
     "preco": 5.0,
     "promocao": false
@@ -826,7 +826,7 @@
   {
     "nome": "Cervenja Heineken 350ml",
     "codigo": "104",
-    "imagem": "",
+    "imagem": "/imgs/produtos/heineken.png",
     "categoria": "outros",
     "preco": 5.0,
     "promocao": false
