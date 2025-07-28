@@ -123,3 +123,43 @@ fetch('produtos.json')
     renderizarItens();
     atualizarResumoCarrinho();  // <<< resumo inicial vazio
   });
+
+  
+  document.getElementById('finalizarPedido').addEventListener('click', () => {
+  const nome = document.getElementById('nome').value.trim();
+  const pizzaria = document.getElementById('pizzaria').value.trim();
+  const telefone = document.getElementById('telefone').value.trim();
+  const endereco = document.getElementById('endereco').value.trim();
+  const numero = document.getElementById('numero').value.trim();
+  const cep = document.getElementById('cep').value.trim();
+  const pagamento = document.getElementById('pagamento').value;
+
+  if (!nome || !pizzaria || !telefone || !endereco || !numero || !cep || !pagamento) {
+    alert('Por favor, preencha todos os dados pessoais corretamente!');
+    return;
+  }
+
+  let mensagem = `* Novo Pedido Realizado!*\n\n`;
+  mensagem += ` *Nome:* ${nome}\n🏪 *Pizzaria:* ${pizzaria}\n📱 *Telefone:* ${telefone}\n📍 *Endereço:* ${endereco}, ${numero}\n📮 *CEP:* ${cep}\n💳 *Forma de Pagamento:* ${pagamento}\n\n`;
+  mensagem += ` *Itens do Pedido:*\n`;
+
+  let total = 0;
+  for (const codigo in carrinho) {
+    const qtd = carrinho[codigo];
+    if (qtd > 0) {
+      const produto = produtos.find(p => p.codigo === codigo);
+      if (!produto) continue;
+
+      const subtotal = qtd * produto.preco;
+      total += subtotal;
+      mensagem += `- ${produto.nome} x${qtd} (R$ ${subtotal.toFixed(2)})\n`;
+    }
+  }
+
+  mensagem += `\n💰 *Total:* R$ ${total.toFixed(2)}\n\n`;
+  mensagem += `✅ *Pedido enviado via sistema!*`;
+
+  const numeroWhatsApp = '11982688488'; // ex: '5511999999999'
+  const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+  window.open(url, '_blank');
+});

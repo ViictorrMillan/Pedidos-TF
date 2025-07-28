@@ -11,7 +11,6 @@ body {
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
 }
 
 header {
@@ -610,3 +609,5 @@ footer {
     padding: 8px 12px;
   }
 }
+
+
