@@ -162,7 +162,7 @@ document.getElementById('finalizarPedido').addEventListener('click', () => {
   mensagem += `\n💰 *Total:* R$ ${total.toFixed(2)}\n\n`;
   mensagem += `✅ *Pedido enviado via sistema!*`;
 
-  const numeroWhatsApp = '11982688488'; // Coloque seu número no formato internacional, ex: '5511999999999'
+  const numeroWhatsApp = '5511982688488';
   const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
   window.open(url, '_blank');
 });
