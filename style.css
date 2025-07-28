@@ -248,7 +248,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 25px;
 }
 
 .filtros-categorias button {
@@ -378,6 +377,7 @@ footer {
 
 
 @media (max-width: 1000px) {
+  
     body {
     overflow-y: auto; 
   }
@@ -502,20 +502,7 @@ footer {
     flex: 1;
     max-width: 100%;
     min-width: 0;
-  }
-
-}
-
-/* max-width 768px */
-@media (max-width: 768px) {
-  .dados-pessoais,
-  .itens-pedido {
-    width: 100%;
-    height: auto;
-    padding: 15px;
-    min-height: 500px;
-  }
-
+  } 
   #form-dados {
     gap: 15px;
     align-items: stretch;
@@ -536,6 +523,18 @@ footer {
   #form-dados input,
   #form-dados select {
     width: 100%;
+  }
+  
+}
+
+/* max-width 768px */
+@media (max-width: 768px) {
+  .dados-pessoais,
+  .itens-pedido {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    min-height: 500px;
   }
 
   footer {
